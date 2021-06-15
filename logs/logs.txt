@@ -1,0 +1,113 @@
+2021-06-15 03:30:22 [main] INFO  org.epam.multithreading.reader.PortFileReader - Ships were read successfully in file: C:\Users\pilip\IdeaProjects\multithreading\target\classes\files\shipData.txt
+2021-06-15 03:30:22 [main] INFO  org.epam.multithreading.creator.ShipCreator - Lines parsed successfully
+2021-06-15 03:30:22 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Port - Obtained dock 6
+2021-06-15 03:30:22 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Obtained dock 5
+2021-06-15 03:30:22 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Start obtaining dock
+2021-06-15 03:30:22 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Obtained dock 4
+2021-06-15 03:30:22 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Port - Obtained dock 3
+2021-06-15 03:30:22 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Port - Obtained dock 2
+2021-06-15 03:30:22 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Port - Obtained dock 1
+2021-06-15 03:30:22 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Obtained dock 0
+2021-06-15 03:30:22 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Waiting for dock
+2021-06-15 03:30:22 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Waiting for dock
+2021-06-15 03:30:22 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Waiting for dock
+2021-06-15 03:30:23 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Start unload
+2021-06-15 03:30:23 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Complete unload, container amount: 4
+2021-06-15 03:30:23 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Port - Start unload
+2021-06-15 03:30:23 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@21ee85e4
+2021-06-15 03:30:23 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Port - Complete unload, container amount: 5
+2021-06-15 03:30:23 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@1ec3bc2f
+2021-06-15 03:30:23 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Start load
+2021-06-15 03:30:23 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Complete load, container amount: 4
+2021-06-15 03:30:23 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Obtained dock 4
+2021-06-15 03:30:23 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@21ee85e4
+2021-06-15 03:30:23 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@2442b78
+2021-06-15 03:30:23 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Port - Start unload
+2021-06-15 03:30:23 [pool-2-thread-6] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@1ec3bc2f
+2021-06-15 03:30:23 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Obtained dock 2
+2021-06-15 03:30:23 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Port - Complete unload, container amount: 5
+2021-06-15 03:30:23 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Port - Start load
+2021-06-15 03:30:23 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@1bfe2d6a
+2021-06-15 03:30:23 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Port - Complete load, container amount: 4
+2021-06-15 03:30:23 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Obtained dock 5
+2021-06-15 03:30:23 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@2442b78
+2021-06-15 03:30:23 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Port - Start unload
+2021-06-15 03:30:23 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@76e0dec2
+2021-06-15 03:30:23 [pool-2-thread-8] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@1bfe2d6a
+2021-06-15 03:30:23 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Port - Complete unload, container amount: 5
+2021-06-15 03:30:23 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Start unload
+2021-06-15 03:30:23 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@5e9344c6
+2021-06-15 03:30:23 [pool-2-thread-7] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@76e0dec2
+2021-06-15 03:30:23 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-4] DEBUG org.epam.multithreading.entity.Port - Waiting for unload
+2021-06-15 03:30:23 [pool-2-thread-10] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@5e9344c6
+2021-06-15 03:30:23 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:23 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Complete unload, container amount: 4
+2021-06-15 03:30:23 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@320ca936
+2021-06-15 03:30:23 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:23 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@320ca936
+2021-06-15 03:30:24 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:24 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:24 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:24 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:24 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Start load
+2021-06-15 03:30:24 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Complete load, container amount: 1
+2021-06-15 03:30:24 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@6ea99e36
+2021-06-15 03:30:24 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Start load
+2021-06-15 03:30:24 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:24 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Complete load, container amount: 0
+2021-06-15 03:30:24 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@6ea99e36
+2021-06-15 03:30:24 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@1c15b4e7
+2021-06-15 03:30:24 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Start load
+2021-06-15 03:30:24 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:24 [pool-2-thread-9] DEBUG org.epam.multithreading.entity.Port - Waiting for load
+2021-06-15 03:30:24 [pool-2-thread-5] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@1c15b4e7
+2021-06-15 03:30:24 [Timer-0] DEBUG org.epam.multithreading.entity.Port - Timer
+2021-06-15 03:30:24 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Complete load, container amount: 1
+2021-06-15 03:30:24 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Dock - Ship handled: org.epam.multithreading.entity.Ship@1ba3b34a
+2021-06-15 03:30:24 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 03:30:24 [pool-2-thread-9] INFO  org.epam.multithreading.entity.Ship - Ship handled org.epam.multithreading.entity.Ship@1ba3b34a
+2021-06-15 04:07:07 [main] INFO  org.epam.multithreading.reader.PortFileReader - File was readen: C:\Users\pilip\IdeaProjects\multithreading\target\classes\files\shipData.txt
+2021-06-15 04:07:07 [main] INFO  org.epam.multithreading.creator.ShipCreator - Ships created successfully: Amount of ships: 4
+2021-06-15 04:07:07 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Obtaining new dock
+2021-06-15 04:07:07 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Obtaining new dock
+2021-06-15 04:07:07 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Obtaining new dock
+2021-06-15 04:07:07 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Obtaining new dock
+2021-06-15 04:07:07 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Obtained new dock! 1
+2021-06-15 04:07:07 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Obtained new dock! 0
+2021-06-15 04:07:08 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Unloading container
+2021-06-15 04:07:08 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Container unloaded! Amount: 4
+2021-06-15 04:07:08 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Unloading container
+2021-06-15 04:07:08 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Dock - Ship handled: Ship{id=1, capacity=0, isLoading=false, currentValue=0, task=UNLOAD}
+2021-06-15 04:07:08 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Container unloaded! Amount: 5
+2021-06-15 04:07:08 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Dock - Ship handled: Ship{id=3, capacity=0, isLoading=false, currentValue=0, task=UNLOAD}
+2021-06-15 04:07:08 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 04:07:08 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Obtained new dock! 1
+2021-06-15 04:07:08 [pool-2-thread-2] INFO  org.epam.multithreading.entity.Ship - Ship handled Ship{id=1, capacity=0, isLoading=false, currentValue=0, task=UNLOAD}
+2021-06-15 04:07:08 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 04:07:08 [pool-2-thread-4] INFO  org.epam.multithreading.entity.Ship - Ship handled Ship{id=3, capacity=0, isLoading=false, currentValue=0, task=UNLOAD}
+2021-06-15 04:07:08 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Obtained new dock! 0
+2021-06-15 04:07:09 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Loading started
+2021-06-15 04:07:09 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Container are loaded. Amount: 4
+2021-06-15 04:07:09 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Dock - Ship handled: Ship{id=0, capacity=0, isLoading=false, currentValue=0, task=LOAD}
+2021-06-15 04:07:09 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Loading started
+2021-06-15 04:07:09 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Container are loaded. Amount: 3
+2021-06-15 04:07:09 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 04:07:09 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Dock - Ship handled: Ship{id=2, capacity=0, isLoading=false, currentValue=0, task=LOAD}
+2021-06-15 04:07:09 [pool-2-thread-1] INFO  org.epam.multithreading.entity.Ship - Ship handled Ship{id=0, capacity=0, isLoading=false, currentValue=0, task=LOAD}
+2021-06-15 04:07:09 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Port - Dock released
+2021-06-15 04:07:09 [pool-2-thread-3] INFO  org.epam.multithreading.entity.Ship - Ship handled Ship{id=2, capacity=0, isLoading=false, currentValue=0, task=LOAD}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status = "INFO">
+    <Properties>
+        <property name="pattern_file">
+            %d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n
+        </property>
+        <property name="pattern_console">
+            %relative %-5level %logger{1} - %msg%n
+        </property>
+    </Properties>
+    <Appenders>
+        <File name="TxtFile" fileName="logs/logs.txt" bufferedIO="true">
+            <PatternLayout pattern="${pattern_file}"/>
+        </File>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern_console}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level = "debug">
+            <AppenderRef ref = "TxtFile"/>
+            <AppenderRef ref = "Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
